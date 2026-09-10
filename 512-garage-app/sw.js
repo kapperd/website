@@ -1,4 +1,4 @@
-const CACHE='garage512-v3';
+const CACHE='garage512-v4';
 const ASSETS=['./','./index.html','./assets/app.css','./assets/app1.js','./assets/app2.js','./assets/app3.js','./assets/app4.js','./manifest.webmanifest'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
