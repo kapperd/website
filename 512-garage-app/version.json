@@ -1,9 +1,10 @@
 {
-  "version": "2.4.0",
+  "version": "2.5.0",
   "files": [
     "index.html",
     "assets/app.css",
     "assets/app1.js",
+    "assets/master-services.js",
     "assets/app2.js",
     "assets/app3.js",
     "assets/app4.js",
