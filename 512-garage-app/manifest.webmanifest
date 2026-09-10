@@ -1,0 +1,9 @@
+{
+  "name": "512 Garage Management System",
+  "short_name": "512 Garage",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0e0f12",
+  "theme_color": "#f57c00",
+  "description": "Offline-first CRM and finance-ready management system for 512 Garage."
+}
