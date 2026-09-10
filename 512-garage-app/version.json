@@ -1,11 +1,13 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "files": [
     "index.html",
     "assets/app.css",
-    "assets/app.js",
+    "assets/app1.js",
+    "assets/app2.js",
+    "assets/app3.js",
+    "assets/app4.js",
     "manifest.webmanifest",
-    "sw.js",
-    "integration_schema.json"
+    "sw.js"
   ]
 }
