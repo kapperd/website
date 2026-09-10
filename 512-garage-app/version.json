@@ -1,0 +1,11 @@
+{
+  "version": "2.1.0",
+  "files": [
+    "index.html",
+    "assets/app.css",
+    "assets/app.js",
+    "manifest.webmanifest",
+    "sw.js",
+    "integration_schema.json"
+  ]
+}
